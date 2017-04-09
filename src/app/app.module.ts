@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ProjectComponent } from './portfolio/project/project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AboutComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
