@@ -1,13 +1,22 @@
 .portfolio-container {
     height: 30rem;
-    padding: 3rem;
+    padding: 3rem 0rem;
     background: #fefefe;
+    h3 {
+        margin: 0;
+        padding: 3rem;
+        font-size: 2rem;
+    }
     .portfolio-content {
-        max-width: 800px;
-        h3 {
-            margin: 0;
-            font-size: 2rem;
-            text-decoration: underline;
+        max-width: 1080px;
+        margin: auto;
+        .projects {
+            .project {
+                height: 230px;
+                border: 1px solid grey;
+                border-radius: 3px;
+                background: #333;
+            }
         }
     }
 }
