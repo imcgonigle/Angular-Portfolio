@@ -3,5 +3,7 @@ export class Project {
   title: string;
   description: string;
   imageUrls: string[];
-  isFinished: boolean; 
+  projectUrl: string;
+  isFinished: boolean;
+   
 }
