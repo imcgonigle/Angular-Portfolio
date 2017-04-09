@@ -1,0 +1,13 @@
+.portfolio-container {
+    height: 30rem;
+    padding: 3rem;
+    background: #fefefe;
+    .portfolio-content {
+        max-width: 800px;
+        h3 {
+            margin: 0;
+            font-size: 2rem;
+            text-decoration: underline;
+        }
+    }
+}
