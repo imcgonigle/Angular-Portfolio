@@ -1,0 +1,13 @@
+.portfolio-container {
+    height: 30rem;
+    padding: 4rem 0rem;
+    background: #fefefe;
+    .portfolio-content {
+        max-width: 1080px;
+        margin: auto;
+        padding-bottom: 3rem;
+        .projects {
+            justify-content: space-around;
+        }
+    }
+}
