@@ -1,22 +1,28 @@
 .portfolio-container {
     height: 30rem;
-    padding: 3rem 0rem;
+    padding: 4rem 0rem;
     background: #fefefe;
     h3 {
         margin: 0;
         padding: 3rem;
         font-size: 2rem;
+        color: #333;
     }
     .portfolio-content {
         max-width: 1080px;
         margin: auto;
         .projects {
+            justify-content: space-around;
             .project {
-                height: 230px;
-                border: 1px solid grey;
-                border-radius: 3px;
-                background: #333;
+                height: 320px;
+                width: 300px;
+                margin: 1rem 1rem;
+                .mdl-card__title {
+                    background: #457fca;
+                    color: #fff;
+                }
             }
         }
+        padding-bottom: 3rem;
     }
 }
