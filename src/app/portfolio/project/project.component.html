@@ -5,8 +5,8 @@
     <div class="mdl-card__supporting-text">
         {{project.description}}
     </div>
-    <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">More Info</a>
+    <div *ngIf="project.repoUrl || project.projectUrl" class="mdl-card__actions mdl-card--border">
+        <a *ngIf="project.repoUrl" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.repoUrl}}">View Repo</a>
         <a *ngIf="project.projectUrl " class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.projectUrl}}" target="_blank">Preview</a>
     </div>
 </div>
