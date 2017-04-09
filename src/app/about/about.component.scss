@@ -1,0 +1,39 @@
+.about-container {
+    padding: 2rem;
+    background: #457fca;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .about-section {
+        display: flex;
+        align-items: bottom;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: auto;
+        margin: 5rem auto;
+        color: #fefefe;
+        .about-text {
+            margin-left: 1.5rem;
+            h3 {
+                font-size: 2rem;
+                padding: 0;
+                margin: 0;
+            }
+            p {
+                font-family: Roboto-light;
+                font-size: 1.5rem;
+                font-weight: 100;
+                line-height: 2.2rem;
+            }
+        }
+        .about-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: #444;
+            box-shadow: 2px 1px 6px #aaa;
+        }
+    }
+}
