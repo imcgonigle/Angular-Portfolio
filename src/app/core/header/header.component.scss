@@ -1,5 +1,18 @@
+.mdl-layout-title {
+    font-weight: 100;
+    letter-spacing: .3rem;
+}
+
 .mdl-navigation__link {
     &:hover {
-        color: #55f;
+        color: #03A9F4;
+    }
+}
+
+.mdl-button {
+    color: #333;
+    background: #03A9F4;
+    &:hover {
+        background: lighten(#03A9F4, 10);
     }
 }
