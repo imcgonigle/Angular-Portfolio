@@ -1,17 +1,7 @@
 <div class="portfolio-container">
     <div class="portfolio-content">
         <div class="projects mdl-grid">
-            <div *ngFor="let project of projects" class="project mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand">
-                    <h2 class="mdl-card__title-text">{{project.title}}</h2>
-                </div>
-                <div class="mdl-card__supporting-text">
-                    {{project.description}}
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View More ...</a>
-                </div>
-            </div>
+            <app-project *ngFor="let project of projects" [project]="project"></app-project>
         </div>
     </div>
 </div>

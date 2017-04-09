@@ -11,18 +11,9 @@
     .portfolio-content {
         max-width: 1080px;
         margin: auto;
+        padding-bottom: 3rem;
         .projects {
             justify-content: space-around;
-            .project {
-                height: 320px;
-                width: 300px;
-                margin: 1rem 1rem;
-                .mdl-card__title {
-                    background: #457fca;
-                    color: #fff;
-                }
-            }
         }
-        padding-bottom: 3rem;
     }
 }
