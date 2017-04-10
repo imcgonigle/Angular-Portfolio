@@ -2,7 +2,6 @@
     <div class="mdl-card__title mdl-card--expand">
         <div class="icon">
             <div class="thumbnail" *ngIf="project.imageUrls[0]; else icon" [ngStyle]="{'background': 'url(' + project.imageUrls[0] + ') no-repeat center center'}"></div>
-            <!--<img class="project-thumbnail" *ngIf="project.imageUrls[0]; else icon" src="{{project.imageUrls[0]}}" alt="">-->
             <ng-template #icon>
                 <i class="material-icons">share</i>
             </ng-template>
