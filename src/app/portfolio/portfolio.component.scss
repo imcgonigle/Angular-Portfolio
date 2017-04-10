@@ -11,9 +11,20 @@
     }
 }
 
+.portfolio-header {
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    .title {
+        margin: 0;
+        font-size: 2rem;
+        font-family: Roboto-light;
+    }
+}
+
 .mdl-tabs__tab-bar {
     margin-bottom: 3rem;
-    background: #ccc;
+    background: #fff;
     a {
         &.is-active {
             &::after {
