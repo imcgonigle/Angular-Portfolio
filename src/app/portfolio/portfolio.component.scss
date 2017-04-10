@@ -1,5 +1,5 @@
 .portfolio-container {
-    padding: 4rem 0rem;
+    padding: 0rem;
     background: #eee;
     .portfolio-content {
         max-width: 1080px;
@@ -7,6 +7,18 @@
         padding-bottom: 3rem;
         .projects {
             justify-content: space-around;
+        }
+    }
+}
+
+.mdl-tabs__tab-bar {
+    margin-bottom: 3rem;
+    background: #ccc;
+    a {
+        &.is-active {
+            &::after {
+                background: #03A9F4;
+            }
         }
     }
 }
