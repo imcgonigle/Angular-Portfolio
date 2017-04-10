@@ -8,11 +8,12 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     .about-section {
         display: flex;
-        align-items: bottom;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-between;
         max-width: 800px;
         margin: auto;
-        margin: 5rem auto;
+        margin: 3rem auto;
         color: #fefefe;
         .about-text {
             margin-left: 1.5rem;
