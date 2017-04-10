@@ -11,7 +11,7 @@ const PROJECTS: Project[] = [
     tags: [],
     imageUrls: ['assets/images/projects/project-1-thumbnail.png'], 
     projectUrl:"https://inventory-application.herokuapp.com/",
-    repoUrl: '', 
+    repoUrl: 'https://github.com/imcgonigle/Capstone-Project-Inventory-Application', 
     isFinished: true,
     isFeatured: true 
   },
@@ -24,7 +24,7 @@ const PROJECTS: Project[] = [
     tags: [],
     imageUrls: ['assets/images/projects/project-2-thumbnail.png'],
     projectUrl: 'https://todo-list-2d655.firebaseapp.com',
-    repoUrl: '',
+    repoUrl: 'https://github.com/imcgonigle/Route-Planner',
     isFinished: true,
     isFeatured: true
    },
@@ -36,8 +36,8 @@ const PROJECTS: Project[] = [
     technologies: [],
     tags: [],
     imageUrls: ['assets/images/projects/project-3-thumbnail.png'], 
-    projectUrl: '',
-    repoUrl: '', 
+    projectUrl: 'https://zombie-risk.firebaseapp.com/',
+    repoUrl: 'https://github.com/imcgonigle/Zombie-Risk', 
     isFinished: true,
     isFeatured: true
   },
@@ -50,7 +50,7 @@ const PROJECTS: Project[] = [
     tags: [],
     imageUrls: ['assets/images/projects/project-4-thumbnail.png'], 
     projectUrl: '',
-    repoUrl: '', 
+    repoUrl: 'https://github.com/imcgonigle/CodersAgainst', 
     isFinished: true,
     isFeatured: true
   },
@@ -62,8 +62,8 @@ const PROJECTS: Project[] = [
     technologies: [],
     tags: [],
     imageUrls: ['assets/images/projects/project-5-thumbnail.png'], 
-    projectUrl: '',
-    repoUrl: '', 
+    projectUrl: 'https://g31-galvanize-eats.firebaseapp.com/',
+    repoUrl: 'https://github.com/imcgonigle/Denver-Eats', 
     isFinished: true,
     isFeatured: true 
   },
@@ -76,7 +76,7 @@ const PROJECTS: Project[] = [
     tags: [],
     imageUrls: [], 
     projectUrl: '',
-    repoUrl: '', 
+    repoUrl: 'https://github.com/imcgonigle/Lesson-Box', 
     isFinished: false,
     isFeatured: false
    },
@@ -88,8 +88,8 @@ const PROJECTS: Project[] = [
     technologies: [],
     tags: [],
     imageUrls: ['assets/images/projects/project-7-thumbnail.png'], 
-    projectUrl: '',
-    repoUrl: '', 
+    projectUrl: 'https://gspace-app.herokuapp.com/',
+    repoUrl: 'https://github.com/imcgonigle/gSpace', 
     isFinished: true,
     isFeatured: false 
   },
