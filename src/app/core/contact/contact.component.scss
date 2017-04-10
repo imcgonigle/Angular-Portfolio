@@ -1,5 +1,6 @@
 .contact-container {
-    background: #333;
+    box-shadow: 2px 3px 6px #333;
+    background: #111;
     .contact-section {
         display: flex;
         flex-direction: column;
@@ -7,25 +8,40 @@
         margin: auto;
         padding: 1rem;
         max-width: 980px;
-        .email-section {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin-bottom: 1rem;
-            .contact-email {
-                font-family: Roboto-thin;
-                font-size: 1.5rem;
-                color: #fff;
-            }
-        }
         .social-links {
             display: flex;
             justify-content: space-around;
             width: 100%;
-            i,
             a {
                 text-decoration: none;
                 color: #fff;
+            }
+            i {
+                font-size: 3rem;
+                &.fi-mail {
+                    color: #fefefe;
+                    &:hover {
+                        color: #1DA1F2;
+                    }
+                }
+                &.fi-social-twitter {
+                    color: #1DA1F2;
+                    &:hover {
+                        color: #fefefe;
+                    }
+                }
+                &.fi-social-linkedin {
+                    color: #0177B5;
+                    &:hover {
+                        color: #fefefe;
+                    }
+                }
+                &.fi-social-github {
+                    color: #fefefe;
+                    &:hover {
+                        color: #1DA1F2;
+                    }
+                }
             }
         }
     }
