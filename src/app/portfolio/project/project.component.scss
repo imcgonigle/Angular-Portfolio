@@ -1,5 +1,5 @@
 .project {
-    height: 320px;
+    min-height: 400px;
     width: 300px;
     margin: 1rem 1rem;
     .mdl-card__title {
@@ -9,8 +9,8 @@
         background: #03A9F4;
         color: #fff;
         .mdl-card__title-text {
+            padding-top: 1rem;
             align-self: flex-start;
-            margin-bottom: 0;
         }
         .icon {
             flex-grow: 2;
@@ -19,6 +19,14 @@
             justify-content: space-around;
             i {
                 font-size: 5rem;
+            }
+            .project-thumbnail {
+                display: block;
+                width: 300px;
+            }
+            .thumbnail {
+                height: 160px;
+                width: 260px;
             }
         }
     }

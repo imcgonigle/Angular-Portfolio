@@ -113,7 +113,7 @@ const PROJECTS: Project[] = [
     features: [],
     technologies: [],
     tags: [],
-    imageUrls: ['assets/images/projects/project-9-thumbnail.png'], 
+    imageUrls: ['assets/images/projects/project-9-thumbnail.jpg'], 
     projectUrl: '',
     repoUrl: '', 
     isFinished: true,
