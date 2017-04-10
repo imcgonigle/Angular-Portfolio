@@ -8,7 +8,6 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     .about-section {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         max-width: 800px;
@@ -32,9 +31,8 @@
         .about-picture {
             width: 200px;
             height: 200px;
-            border-radius: 50%;
+            border-radius: 8px;
             background: #444;
-            box-shadow: 2px 1px 6px #aaa;
         }
     }
 }
