@@ -1,8 +1,33 @@
 <a name="portfolio"></a>
 <div class="mdl-tabs portfolio-container">
-    <div class="portfolio-content is-active" id="featured">
-        <div class="projects mdl-grid ">
-            <app-project *ngFor="let project of projects " [project]="project "></app-project>
+    <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+        <div class="mdl-tabs__tab-bar">
+            <a href="#featured-panel" class="mdl-tabs__tab is-active">Featured</a>
+            <a href="#in-progress-panel" class="mdl-tabs__tab">In Progress</a>
+            <a href="#all-panel" class="mdl-tabs__tab">All</a>
+        </div>
+
+        <div class="mdl-tabs__panel is-active" id="featured-panel">
+            <div class="portfolio-content" id="featured">
+                <div class="projects mdl-grid ">
+                    <app-project *ngFor="let project of projects " [project]="project "></app-project>
+                </div>
+            </div>
+        </div>
+        <div class="mdl-tabs__panel" id="in-progress-panel">
+            <ul>
+                <li>In Progress App 1</li>
+                <li>In Progress App 2</li>
+                <li>In Progress App 3</li>
+                <li>In Progress App 4</li>
+            </ul>
+        </div>
+        <div class="mdl-tabs__panel" id="all-panel">
+            <ul>
+                <li>All applications</li>
+                <li>Every application</li>
+            </ul>
         </div>
     </div>
+
 </div>
