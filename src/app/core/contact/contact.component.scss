@@ -18,29 +18,9 @@
             }
             i {
                 font-size: 3rem;
-                &.fi-mail {
+                color: #0286C2;
+                &:hover {
                     color: #fefefe;
-                    &:hover {
-                        color: #1DA1F2;
-                    }
-                }
-                &.fi-social-twitter {
-                    color: #1DA1F2;
-                    &:hover {
-                        color: #fefefe;
-                    }
-                }
-                &.fi-social-linkedin {
-                    color: #0177B5;
-                    &:hover {
-                        color: #fefefe;
-                    }
-                }
-                &.fi-social-github {
-                    color: #fefefe;
-                    &:hover {
-                        color: #1DA1F2;
-                    }
                 }
             }
         }
