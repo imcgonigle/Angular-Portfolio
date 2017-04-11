@@ -20,7 +20,7 @@
                 font-size: 3rem;
                 color: #0286C2;
                 &:hover {
-                    color: #fefefe;
+                    color: lighten(#0286C2, 20);
                 }
             }
         }
