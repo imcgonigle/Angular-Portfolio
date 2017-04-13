@@ -1,11 +1,56 @@
+li {
+    margin-top: 2rem;
+}
+
+.fi-social-linkedin {
+    color: #0177B5;
+}
+
+.fi-social-github {
+    color: #fefefe;
+}
+
+.fi-social-twitter {
+    color: #1DA1F2;
+}
+
 a {
     font-size: 1.2rem;
-    i {
-        font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    &:hover {
+        color: #0286C2;
+        i {
+            color: #0286c2;
+            ;
+        }
     }
+    i {
+        font-size: 2.5rem;
+        margin-right: 1rem;
+    }
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #0286C2;
+}
+
+footer {
+    background: #111;
+    color: #eee;
+    font-weight: lighter;
 }
 
 footer>div {
     max-width: 980px;
     margin: auto;
+}
+
+.mdl-mega-footer__middle-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
