@@ -1,7 +1,7 @@
 <div class="project mdl-card mdl-shadow--2dp">
     <div class="mdl-card__title mdl-card--expand">
         <div class="icon">
-            <div class="thumbnail" *ngIf="project.imageUrls[0]; else icon" [ngStyle]="{'background': 'url(' + project.imageUrls[0] + ') no-repeat center center'}"></div>
+            <div class="thumbnail" *ngIf="project.imageUrls[0]; else icon" [ngStyle]="{'background': 'url(' + project.imageUrls[0] + ')'}"></div>
             <ng-template #icon>
                 <i class="material-icons">share</i>
             </ng-template>
@@ -12,7 +12,7 @@
         {{project.description}}
     </div>
     <div *ngIf="project.repoUrl || project.projectUrl" class="mdl-card__actions mdl-card--border">
-        <a *ngIf="project.repoUrl" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.repoUrl}}">View Repo</a>
-        <a *ngIf="project.projectUrl " class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.projectUrl}}" target="_blank">Preview</a>
+        <a *ngIf="project.repoUrl" class="repo-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.repoUrl}}">View Repo</a>
+        <a *ngIf="project.projectUrl " class="live-preview-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.projectUrl}}" target="_blank">Preview</a>
     </div>
 </div>

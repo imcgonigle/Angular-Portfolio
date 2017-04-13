@@ -23,8 +23,17 @@
             .thumbnail {
                 height: 160px;
                 width: 260px;
+                background-size: cover !important;
+                background-repeat: no-repeat !important;
+                background-position: center !important;
             }
         }
+    }
+    .mdl-card__supporting-text {
+        height: 58px;
+    }
+    .live-preview-button {
+        float: right;
     }
     a {
         color: #03A9F4;
