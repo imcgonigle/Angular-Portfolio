@@ -1,0 +1,6 @@
+- Refactor code.
+- Switch out Material Design Lite for Angular Material 2
+- Integrate with Firebase
+- Create an admin control panel to upload projects and blog posts
+- Add more info about each project
+- Allow people to click on the projects to read more about them.
