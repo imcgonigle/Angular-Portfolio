@@ -12,6 +12,8 @@ import { ProjectComponent } from './portfolio/project/project.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { ContactComponent } from './core/contact/contact.component';
 
+import "hammerjs";
+
 @NgModule({
   declarations: [
     AppComponent,
