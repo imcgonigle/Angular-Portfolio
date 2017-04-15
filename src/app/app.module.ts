@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MdButtonModule, MdCardModule, MdToolbarModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
@@ -22,7 +23,10 @@ import "hammerjs";
     PortfolioComponent,
     ProjectComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    MdButtonModule,
+    MdCardModule,
+    MdToolbarModule
   ],
   imports: [
     BrowserModule,
