@@ -12,7 +12,7 @@
         {{project.description}}
     </div>
     <div *ngIf="project.repoUrl || project.projectUrl" class="mdl-card__actions mdl-card--border">
-        <a *ngIf="project.projectUrl" class="button-primary" md-raised-button href="{{project.projectUrl}}" target="_blank">Preview</a>
-        <a *ngIf="project.repoUrl" class="button-secondary" md-button href="{{project.repoUrl}}">View Repo</a>
+        <a [disabled]="project.projectUrl === ''" [ngClass]="project.projectUrl === '' ? '' : 'button-primary'" md-button href="{{project.projectUrl}}" target="_blank">Visit</a>
+        <a *ngIf="project.repoUrl" class="button-secondary" md-button href="{{project.repoUrl}}">View Code</a>
     </div>
 </div>
