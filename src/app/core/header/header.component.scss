@@ -4,13 +4,16 @@
 }
 
 .mdl-navigation__link {
+    font-weight: lighter;
     &:hover {
         color: #03A9F4;
     }
 }
 
 .mdl-button {
-    color: #333;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #eee;
     background: #03A9F4;
     &:hover {
         background: lighten(#03A9F4, 10);
