@@ -12,7 +12,7 @@
         {{project.description}}
     </div>
     <div *ngIf="project.repoUrl || project.projectUrl" class="mdl-card__actions mdl-card--border">
-        <a *ngIf="project.repoUrl" class="repo-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.repoUrl}}">View Repo</a>
-        <a *ngIf="project.projectUrl " class="live-preview-button mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{project.projectUrl}}" target="_blank">Preview</a>
+        <a *ngIf="project.projectUrl" class="button-primary" md-raised-button href="{{project.projectUrl}}" target="_blank">Preview</a>
+        <a *ngIf="project.repoUrl" class="button-secondary" md-button href="{{project.repoUrl}}">View Repo</a>
     </div>
 </div>

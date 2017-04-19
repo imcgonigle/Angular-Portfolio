@@ -36,10 +36,12 @@
     .mdl-card__supporting-text {
         height: 58px;
     }
-    .live-preview-button {
-        float: right;
-    }
     a {
+        font-weight: lighter;
         color: #03A9F4;
+    }
+    .button-primary {
+        background: #03A9F4;
+        color: #fefefe;
     }
 }
