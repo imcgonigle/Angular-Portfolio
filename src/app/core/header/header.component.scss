@@ -1,21 +1,32 @@
-.mdl-layout-title {
-    font-weight: 100;
-    letter-spacing: .3rem;
+.toolbar-dark {
+    padding: 0 4rem;
+    background: #222;
 }
 
-.mdl-navigation__link {
+.title {
     font-weight: lighter;
-    &:hover {
-        color: #03A9F4;
-    }
+    letter-spacing: .2rem;
+    color: #03A9F4;
 }
 
-.mdl-button {
+a {
     font-weight: lighter;
     letter-spacing: 1px;
     color: #eee;
-    background: #03A9F4;
+}
+
+.button-secondary {
     &:hover {
-        background: lighten(#03A9F4, 10);
+        color: #03a9f4;
     }
+}
+
+.button-primary {
+    margin-left: 2rem;
+    background: #03a9f4;
+    text-transform: uppercase;
+}
+
+.spacer {
+    flex: 1 1 auto;
 }
