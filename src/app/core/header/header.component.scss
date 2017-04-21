@@ -1,5 +1,7 @@
-.toolbar-dark {
+.toolbar-fixed {
+    position: fixed;
     padding: 0 4rem;
+    z-index: 1000;
     // background: #222;
     background: #457fca;
     /* fallback for old browsers */
@@ -7,6 +9,11 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #5691c8, #457fca);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.div-spacer {
+    height: 4rem;
+    width: 100%;
 }
 
 .title {
