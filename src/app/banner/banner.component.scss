@@ -1,0 +1,29 @@
+.banner-container {
+    padding: 100px 200px;
+    @media (max-width: 900px) {
+        padding: 5rem 1rem;
+    }
+    color: #fff;
+    background: #457fca;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    h1 {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: lighter;
+        &.subheader {
+            font-size: 3rem;
+            color: #ccc;
+        }
+    }
+    p {
+        max-width: 800px;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: lighter;
+        line-height: 3rem;
+    }
+}

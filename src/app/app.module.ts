@@ -12,6 +12,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProjectComponent } from './portfolio/project/project.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { ContactComponent } from './core/contact/contact.component';
+import { BannerComponent } from './banner/banner.component';
 
 import "hammerjs";
 
@@ -23,7 +24,8 @@ import "hammerjs";
     PortfolioComponent,
     ProjectComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
