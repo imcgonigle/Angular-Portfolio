@@ -14,19 +14,19 @@
         letter-spacing: .2rem;
         color: #eee;
     }
-    a {
-        font-weight: lighter;
-        letter-spacing: 1px;
-        color: #eee;
-        &.button-secondary {
-            &:hover {
-                color: #03a9f4;
-            }
+    .toolbar-nav {
+        @media (max-width: 800px) {
+            display: none;
         }
-        &.button-primary {
-            margin-left: 2rem;
-            background: #03a9f4;
-            text-transform: uppercase;
+        a {
+            font-weight: lighter;
+            letter-spacing: 1px;
+            color: #eee;
+            &.button-primary {
+                margin-left: 2rem;
+                background: #03a9f4;
+                text-transform: uppercase;
+            }
         }
     }
     .spacer {
