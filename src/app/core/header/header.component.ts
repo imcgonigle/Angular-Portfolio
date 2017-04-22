@@ -1,5 +1,4 @@
-import { Component, OnInit, Input, HostListener, Inject } from '@angular/core';
-import { DOCUMENT } from '@angular/platform-browser';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -8,16 +7,17 @@ import { DOCUMENT } from '@angular/platform-browser';
 })
 export class HeaderComponent implements OnInit {
   @Input() title: string;
-  private isNavOpened = false;
 
-  constructor(@Inject(DOCUMENT) private document: Document) { }
+  public isNavOpened: boolean;
+
+  constructor() { }
 
   ngOnInit() {
+    this.isNavOpened = false;
   }
 
   goTo(location: string): void {
     window.location.hash = location;
     this.isNavOpened = false;
   }
-
 }
