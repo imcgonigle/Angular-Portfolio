@@ -1,9 +1,25 @@
-<md-toolbar class="toolbar-dark">
-    <span class="title">Ian McGonigle</span>
+<md-toolbar class="toolbar-primary">
+    <span class="title">{{title}}</span>
     <span class="spacer"></span>
-    <span>
-      <a md-button class="button-secondary" href="#about">About</a>
-      <a md-button class="button-secondary" href="#contact">Contact</a>
-      <a md-button class="button-primary" href="#portfolio">Portfolio</a>
-    </span>
+    <nav class="toolbar-nav">
+        <a md-button class="button-secondary" href="#about">About</a>
+        <a md-button class="button-secondary" href="#contact">Contact</a>
+        <a md-button class="button-primary" href="#portfolio">Portfolio</a>
+    </nav>
+    <div class="mobile-navigation">
+        <a (click)="isNavOpen = true;" class="btn" href="#">
+            <i class="fi fi-list" aria-hidden="true"></i>
+        </a>
+        <nav *ngIf="isNavOpen" class="mobile-nav-options">
+            <div class="mobile-nav-titlebar">
+                <span class="title">Navigation</span>
+                <a (click)="isNavOpen = false;" class="nav-close-button">
+                    <i class="fi fi-x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <a (click)="goTo('about'); isNavOpen = false;" class="mobile-nav-button" href="#about">About</a>
+            <a (click)="goTo('contact'); isNavOpen = false;" class="mobile-nav-button" href="#contact">Contact</a>
+            <a (click)="goTo('portfolio'); isNavOpen = false;" class="mobile-nav-button" href="#portfolio">Portfolio</a>
+        </nav>
+    </div>
 </md-toolbar>
