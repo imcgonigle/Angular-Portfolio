@@ -7,8 +7,19 @@
         <a md-button class="button-primary" href="#portfolio">Portfolio</a>
     </nav>
     <div class="mobile-navigation">
-        <a class="btn" href="#">
+        <a (click)="isNavOpen = true;" class="btn" href="#">
             <i class="fi fi-list" aria-hidden="true"></i>
         </a>
+        <nav *ngIf="isNavOpen" class="mobile-nav-options">
+            <div class="mobile-nav-titlebar">
+                <span class="title">Navigation</span>
+                <a (click)="isNavOpen = false;" class="nav-close-button">
+                    <i class="fi fi-x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <a (click)="goTo('about'); isNavOpen = false;" class="mobile-nav-button" href="#about">About</a>
+            <a (click)="goTo('contact'); isNavOpen = false;" class="mobile-nav-button" href="#contact">Contact</a>
+            <a (click)="goTo('portfolio'); isNavOpen = false;" class="mobile-nav-button" href="#portfolio">Portfolio</a>
+        </nav>
     </div>
 </md-toolbar>
