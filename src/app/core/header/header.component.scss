@@ -1,45 +1,35 @@
-.toolbar-fixed {
-    position: fixed;
+.toolbar-primary {
+    position: absolute;
     padding: 0 4rem;
     z-index: 1000;
     // background: #222;
     background: #457fca;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5691c8, #457fca);
+    background: -webkit-linear-gradient(to left, #5691c8, #457fca);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5691c8, #457fca);
+    background: linear-gradient(to left, #5691c8, #457fca);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.div-spacer {
-    height: 4rem;
-    width: 100%;
-}
-
-.title {
-    font-weight: lighter;
-    letter-spacing: .2rem;
-    color: #eee;
-}
-
-a {
-    font-weight: lighter;
-    letter-spacing: 1px;
-    color: #eee;
-}
-
-.button-secondary {
-    &:hover {
-        color: #03a9f4;
+    .title {
+        font-weight: lighter;
+        letter-spacing: .2rem;
+        color: #eee;
     }
-}
-
-.button-primary {
-    margin-left: 2rem;
-    background: #03a9f4;
-    text-transform: uppercase;
-}
-
-.spacer {
-    flex: 1 1 auto;
+    a {
+        font-weight: lighter;
+        letter-spacing: 1px;
+        color: #eee;
+        &.button-secondary {
+            &:hover {
+                color: #03a9f4;
+            }
+        }
+        &.button-primary {
+            margin-left: 2rem;
+            background: #03a9f4;
+            text-transform: uppercase;
+        }
+    }
+    .spacer {
+        flex: 1 1 auto;
+    }
 }
