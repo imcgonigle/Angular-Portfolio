@@ -9,6 +9,9 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #5691c8, #457fca);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    @media(max-width: 800px) {
+        padding: 0 1rem;
+    }
     .title {
         font-weight: lighter;
         letter-spacing: .2rem;
@@ -31,5 +34,20 @@
     }
     .spacer {
         flex: 1 1 auto;
+    }
+    .mobile-navigation {
+        font-size: 3rem;
+        @media (min-width: 800px) {
+            display: none;
+        }
+        .btn {
+            padding: 0 1rem;
+            color: #eee;
+            &:hover {
+                border-radius: 8px;
+                background: rgba(255, 255, 255, .1);
+                color: #ddd;
+            }
+        }
     }
 }
