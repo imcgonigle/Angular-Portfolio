@@ -14,7 +14,11 @@
         text-align: center;
         color: #fff;
         h1 {
+            font-weight: lighter;
             margin: 1rem;
+            strong {
+                font-weight: 400;
+            }
             &.subheader {
                 font-size: 3rem;
                 color: #ccc;
@@ -50,7 +54,7 @@
                 font-size: 3rem;
                 color: #eee;
                 &:hover {
-                    color: #333;
+                    color: rgb(3, 169, 244);
                 }
             }
         }
