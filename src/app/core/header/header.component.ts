@@ -8,22 +8,16 @@ import { DOCUMENT } from '@angular/platform-browser';
 })
 export class HeaderComponent implements OnInit {
   @Input() title: string;
-  public showShadow: boolean = false;
+  private isNavOpened = false;
 
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
-
-  @HostListener("window:scroll", [])
-  onWindowScroll() {
-    let number = this.document.body.scrollTop;
-    if (number > 0) {
-      this.showShadow = true;
-    } else if (this.showShadow && number < 10) {
-      this.showShadow = false;
-    }
+  ngOnInit() {
   }
 
-  ngOnInit() {
+  goTo(location: string): void {
+    window.location.hash = location;
+    this.isNavOpened = false;
   }
 
 }
