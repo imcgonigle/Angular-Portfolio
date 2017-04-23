@@ -15,6 +15,7 @@ import { ContactComponent } from './core/contact/contact.component';
 import { BannerComponent } from './banner/banner.component';
 
 import "hammerjs";
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import "hammerjs";
     ProjectComponent,
     FooterComponent,
     ContactComponent,
-    BannerComponent
+    BannerComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
