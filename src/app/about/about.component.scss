@@ -1,44 +1,35 @@
-.about-container {
-    .about-section {
-        max-width: 800px;
-        // background: rgba(48, 48, 48, .15);
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        padding: 10rem 6rem;
-        color: #fefefe;
-        .about-text {
-            margin-left: 2rem;
-            h3 {
-                font-size: 2rem;
-                padding: 0;
-                margin: 0;
-            }
-            p {
-                font-family: Roboto-light;
-                font-size: 1.5rem;
-                font-weight: 100;
-                line-height: 2.2rem;
-            }
-        }
-        .about-picture {
-            width: 200px;
-            height: 200px;
-            border-radius: 8px;
-            background: #444;
-        }
-        @media screen and (max-width: 900px) {
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            background: none;
-            padding: 2rem 0;
-            .about-text {
-                margin-left: 0;
-                padding: 0 1.5rem;
-            }
-            .about-picture {
-                margin-bottom: 1rem;
+section {
+    padding: 5rem 2rem;
+    background-color: lighten(#5691c8, 10);
+    .section-title {
+        font-size: 2.4rem;
+        text-align: center;
+        color: #2A3A3F;
+    }
+    .section-description {
+        max-width: 700px;
+        margin: 3rem auto;
+        font-size: 1.7rem;
+        font-weight: 100;
+        line-height: 2.5rem;
+        text-align: center;
+        color: #2A3A3F;
+    }
+    .section-link {
+        margin-top: 4rem;
+        text-align: center;
+        a {
+            padding: .5rem 2rem;
+            border: 2px solid #2A3A3F;
+            border-radius: 4px;
+            font-size: 1.4rem;
+            font-weight: lighter;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            color: #2A3A3F;
+            &:hover {
+                background-color: #2A3A3F;
+                color: lighten(#5691c8, 10);
             }
         }
     }
