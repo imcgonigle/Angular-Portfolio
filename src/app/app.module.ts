@@ -16,6 +16,7 @@ import { BannerComponent } from './banner/banner.component';
 
 import "hammerjs";
 import { SkillsComponent } from './skills/skills.component';
+import { WorkComponent } from './work/work.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SkillsComponent } from './skills/skills.component';
     FooterComponent,
     ContactComponent,
     BannerComponent,
-    SkillsComponent
+    SkillsComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
