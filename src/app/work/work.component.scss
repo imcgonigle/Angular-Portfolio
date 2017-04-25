@@ -20,6 +20,9 @@ section {
         a {
             text-decoration: none;
             color: #03a9f4;
+            &:hover {
+                color: darken(#03a9f4, 20);
+            }
         }
     }
     .project {
@@ -29,9 +32,22 @@ section {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        &.row-reverse {
+            flex-direction: row-reverse;
+            @media(max-width: 800px) {
+                flex-direction: column-reverse;
+            }
+        }
+        @media(max-width: 800px) {
+            flex-direction: column-reverse;
+        }
         .project-details {
             max-width: 50%;
             margin-top: 6rem;
+            @media(max-width: 800px) {
+                max-width: 100%;
+                padding: 0 2rem;
+            }
             .project-title {
                 font-size: 2.4rem;
                 font-weight: bold;
