@@ -20,12 +20,13 @@ section {
     .skill-blocks {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-around;
         max-width: 1080px;
         margin: auto;
         .skill-block {
             height: 300px;
-            width: 350px;
+            min-width: 350px;
             margin-top: 40px;
             border: 1px solid #333;
             .skill-icon {
