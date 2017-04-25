@@ -1,9 +1,10 @@
 section {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 100px;
     color: #222;
     .section-title {
         margin-bottom: 20px;
+        padding: 0;
         font-size: 32px;
         line-height: 45px;
         font-weight: 800;
@@ -12,6 +13,7 @@ section {
     }
     .section-statement {
         margin-bottom: 25px;
+        padding: 0;
         text-align: center;
         font-size: 20px;
         line-height: 32px;
@@ -33,13 +35,12 @@ section {
             height: 300px;
             min-width: 350px;
             max-width: 350px;
-            margin-top: 40px;
-            padding: 1rem;
+            padding: 0 1rem;
             .skill-icon {
                 height: 60px;
                 width: 60px;
                 margin: auto;
-                margin-top: 40px;
+                margin-top: 2rem;
                 font-size: 4.4rem;
                 text-align: center;
                 color: #457fca;
@@ -50,18 +51,21 @@ section {
             }
             .skill-title {
                 height: 40px;
-                margin: 18px 0;
+                margin-top: 18px;
                 font-size: 1.6rem;
+                font-weight: bold;
                 text-align: center;
                 color: #222;
             }
             .skill-description {
                 height: 100px;
                 width: 100%;
-                font-size: 1.2rem;
+                padding: 0;
+                margin: 0;
+                font-size: 1.1rem;
                 text-align: center;
-                line-height: 2rem;
-                color: #555;
+                line-height: 1.8rem;
+                color: #666;
             }
         }
     }
