@@ -34,7 +34,13 @@ section {
                 width: 60px;
                 margin: auto;
                 margin-top: 40px;
-                border: 1px solid yellow;
+                font-size: 4.4rem;
+                text-align: center;
+                color: #457fca;
+                /* fallback for old browsers */
+                color: -webkit-linear-gradient(to left, #5691c8, #457fca);
+                /* Chrome 10-25, Safari 5.1-6 */
+                color: linear-gradient(to left, #5691c8, #457fca);
             }
             .skill-title {
                 height: 40px;
