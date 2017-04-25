@@ -21,14 +21,20 @@ section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         max-width: 1080px;
         margin: auto;
+        @media(max-width: 800px) {
+            flex-direction: column;
+            align-items: center;
+        }
         .skill-block {
+            box-sizing: border-box;
             height: 300px;
             min-width: 350px;
+            max-width: 350px;
             margin-top: 40px;
-            border: 1px solid #333;
+            padding: 1rem;
             .skill-icon {
                 height: 60px;
                 width: 60px;
@@ -45,14 +51,17 @@ section {
             .skill-title {
                 height: 40px;
                 margin: 18px 0;
-                font-size: 2rem;
+                font-size: 1.6rem;
                 text-align: center;
                 color: #222;
             }
             .skill-description {
                 height: 100px;
                 width: 100%;
-                border: 2px solid green;
+                font-size: 1.2rem;
+                text-align: center;
+                line-height: 2rem;
+                color: #555;
             }
         }
     }
