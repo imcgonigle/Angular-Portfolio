@@ -1,5 +1,4 @@
 section {
-    height: 30rem;
     padding: 100px 0;
     background-color: #eee;
     .section-title {
@@ -26,6 +25,10 @@ section {
     .project {
         max-width: 1080px;
         margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         .project-details {
             max-width: 50%;
             margin-top: 6rem;
@@ -62,5 +65,16 @@ section {
                 }
             }
         }
+        .project-image {
+            max-width: 50%;
+            padding-right: 5rem;
+            img {
+                height: 300px;
+            }
+        }
+    }
+    hr {
+        width: 60%;
+        margin: 6rem auto;
     }
 }
