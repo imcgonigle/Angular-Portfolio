@@ -7,17 +7,17 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   @Input() title: string;
-
-  public isNavOpened: boolean;
+  
+  public isNavOpen: boolean;
 
   constructor() { }
 
   ngOnInit() {
-    this.isNavOpened = false;
+    this.isNavOpen = false;
   }
 
   goTo(location: string): void {
     window.location.hash = location;
-    this.isNavOpened = false;
+    this.isNavOpen = false;
   }
 }
