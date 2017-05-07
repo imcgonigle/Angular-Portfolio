@@ -8,8 +8,6 @@ import { MdCardModule, MdToolbarModule, MdButtonModule } from '@angular/material
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { AboutComponent } from './about/about.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ProjectComponent } from './portfolio/project/project.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { ContactComponent } from './core/contact/contact.component';
 import { BannerComponent } from './banner/banner.component';
@@ -23,8 +21,6 @@ import { WorkComponent } from './work/work.component';
     AppComponent,
     HeaderComponent,
     AboutComponent,
-    PortfolioComponent,
-    ProjectComponent,
     FooterComponent,
     ContactComponent,
     BannerComponent,
